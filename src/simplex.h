@@ -1,5 +1,5 @@
-#ifndef ZFCCXT_SIMPLEX_H_
-#define ZFCCXT_SIMPLEX_H_
+#ifndef LIB_SIMPLEX_H_
+#define LIB_SIMPLEX_H_
 
 #ifdef __cplusplus
 extern "C" {
@@ -14,4 +14,4 @@ double simplex_noise4d(double xin, double yin, double zin, double win);
 }
 #endif
 
-#endif // ZFCCXT_SIMPLEX_H_
+#endif // LIB_SIMPLEX_H_
