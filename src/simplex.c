@@ -53,7 +53,8 @@ void simplex_init() {
   grad4[27] = create_grad( 1,-1,-1, 0); grad4[28] = create_grad(-1, 1, 1, 0); grad4[29] = create_grad(-1, 1,-1, 0);
   grad4[30] = create_grad(-1,-1, 1, 0); grad4[31] = create_grad(-1,-1,-1, 0);
 
-  for(int i = 0; i < 512; ++i) {
+  int i;
+  for(i = 0; i < 512; ++i) {
     perm[i] = p[i & 255];
     perm_mod_12[i] = (short)(perm[i] % 12);
   }
